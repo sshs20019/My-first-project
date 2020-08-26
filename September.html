@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>영어2 단어암기</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <script src="TwwLogin.js"></script>
+    <script src="wordgame.js"></script>
+    <script src="Word.js"></script>
+  </head>
+  <body>
+    <div id="grid1">
+    <img src="sshslogo.jpg" width="100%" class="inline">
+    <div></div>
+    <h1 style="color:black"><a href="TWW.html">영어2 단어암기</a></h1>
+  <form id="window" name="login">
+    <p>
+    <input class="button1" type="text" name="userid" placeholder="아이디">
+    <input class="button1" type="password" name="userpassword" placeholder="비밀번호">
+    </p>
+      <input class="button2" type="button" value="로그인" onclick="check(this.form)">
+      <!-- <input class="loginButton" type="reset" value="취소"> -->
+</form>
+  </div>
+
+  <div id="grid2">
+  <ol>
+    <li><a href="September.html">September</a></li>
+    <li><a href="October.html">October</a></li>
+    <li><a href="November.html">November</a></li>
+    <li><a href="December.html">December</a></li>
+    <li><a href="January.html">January</a></li>
+  </ol>
+  <div id="article">
+  <h2>September Word</h2>
+  <p>#영어가 주어지고 한글을 맞추는 것은 말투만 달라도 틀릴 수 있기에 한글이 주어지고 영어를 맞추는 문제만 제공됩니다.#
+  </p>
+  <p>(단어는 추후에 계속 추가될 예정입니다.)
+  </p>
+  <p>빈칸에 알맞은 단어를 써주세요.
+  </p>
+  <form>
+    <p class="quiz">
+    공범<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '공범')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    혐의를 제기하다<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '혐의를 제기하다')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    ~의 혐의를 받다<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '~의 혐의를 받다')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    행정의<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '행정의')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    행정실<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '행정실')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    동맹국<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '동맹국')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    건축가<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '건축가')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    암살<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '암살')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    끔찍한<br><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '끔찍한')">
+    </p>
+  </form>
+  <form>
+    <p class="quiz">
+    뇌물을 주다<br><span class="input"><input type="text" name="englishWord">
+    <input type="button" value="정답확인" onclick="checkWord.September(this.form, '뇌물을 주다')">
+    </p>
+  </form>
+  <!-- <script>
+    function html(key){
+        return `
+        <form>
+        <input type="text" name='${key}'>
+        <input type="button" value="정답확인" onclick="checkWord(${key})">
+        </form>
+        `
+      }
+    for(var key in sepWord) {
+      document.write(key);
+      <form>
+      html(key);
+      </form>
+      document.write('<br>');
+    }
+  </script> -->
+</div>
+</div>
+  </body>
+</html>

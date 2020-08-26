@@ -1,0 +1,41 @@
+body{
+  background-color:white;
+  margin:10px;
+}
+#grid1{
+  border-bottom:1px solid gray;
+  display:grid;
+  grid-template-columns:120px 1fr 120px;
+}
+#grid1 img{
+  margin-bottom:3px;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin:0;
+  padding:15px;
+}
+p{
+margin:0;
+}
+@media(max-width:850px){
+  img{
+    display: none;
+  }
+  h1{
+    font-size:40px;
+    display:block;
+    border-bottom:1px solid gray;
+  }
+  #grid1{
+    border-bottom:none;
+    display:block;
+  }
+  #window{
+  border-left: none;
+  border-right:1px solid gray;
+  border-bottom:1px solid gray;
+  display:block;
+  }
+}
